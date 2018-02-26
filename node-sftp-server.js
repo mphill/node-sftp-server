@@ -15,6 +15,7 @@ var extend = function(child, parent) {
 var ssh2 = require('ssh2');
 var ssh2_stream = require('ssh2-streams');
 var SFTP = ssh2_stream.SFTPStream;
+var moment = require('moment');
 
 var tmp = require('tmp');
 tmp.setGracefulCleanup();
